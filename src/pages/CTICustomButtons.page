@@ -1,0 +1,22 @@
+<apex:page sidebar="false" showheader="false" doctype="html-5.0" applyHtmlTag="false" applyBodyTag="false">
+    
+    <apex:includescript value="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" />
+    <apex:includescript value="/support/console/33.0/integration.js" />
+    <apex:includescript value="/support/api/33.0/interaction.js" />
+    <apex:includescript value="/soap/ajax/33.0/connection.js" />   
+    <apex:stylesheet value="{!URLFOR($Resource.cnx__CnxSfdcResources, 'gadget/css/connects.min.css')}"/>
+    <apex:stylesheet value="{!URLFOR($Resource.cnx__CnxSfdcResources,'addons/RealtimeView/css/RealtimeView.min.css')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.cnx__CnxSfdcResources,'js/ConnectsIntegrationAPI.min.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.cnx__CnxSfdcResources,'addons/RealtimeView/js/RealtimeView.min.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.cnx__CnxSfdcResources,'addons/RealtimeView/lib/jquery.floatThead.min.js')}"/>
+    <apex:includeScript value="/support/console/44.0/integration.js"/> 
+
+    <a style="text-decoration: none;" onClick="openDnpageTab();" ><input type="submit" value="Directory Numbers" /></a>    
+    
+    <script type="text/javascript">
+    function openDnpageTab() {          
+        sforce.console.openPrimaryTab(null, window.location.origin + '/apex/DNMaintenancePage', true, 'Directory numbers');           
+    }
+    
+    </script>     
+</apex:page>

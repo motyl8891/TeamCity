@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>DNPageController</members>
+        <members>DNPageControllerTest</members>
+        <members>partnerSoapSforceCom</members>
+        <members>partnerSoapSforceComCalloutMock</members>
+        <members>partnerSoapSforceComCalloutMockTest</members>
+        <members>partnerSoapSforceComTest</members>
+        <members>sobjectPartnerSoapSforceCom</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>CTICustomButtons</members>
+        <members>DNMaintenancePage</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>CNXforCCEClassicV007US</members>
+        <name>CallCenter</name>
+    </types>
+    <types>
+        <members>DNPageCred__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>DirectoryNumbersSupervisor</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>ABB Customer Support Profile</members>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <version>37.0</version>
+</Package>
